@@ -1,6 +1,15 @@
 A full-stack e-commerce platform built with Next.js/React, Node.js/Express, MongoDB, and JWT authentication. Features modern UI, real-time cart, coupon system, and review functionality.
 
-MONGODB_URI=mongodb+srv://admin1:admin1234@cluster0.stp7bwb.mongodb.net
+## Backend ENV
+
+```init
+PORT=8000
+MONGODB_URI=mongodb+srv://admin1:admin1234@cluster0.stp7bwb.mongodb.net/coupon_discount?retryWrites=true&w=majority
+CORS_ORIGIN=http://localhost:5173
+DB_NAME=coupon_discount
+JWT_SECRET=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiYWRtaW4iOnRydWUsImlhdCI6MTUxNjIzOTAyMn0.KMUFsIDTnFmyG3nMiGM6H9FNFUROf3wh7SmqJp-QV30
+JWT_EXPIRE=7d
+```
 
 ✨ 🚀 Live Features
 ✅ Authentication
@@ -204,3 +213,4 @@ coupon Applied -
 
 Order placed - 
 ![Order Placed](./screenshots/order%20placed.png)
+
